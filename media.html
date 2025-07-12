@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Story About Me</title>
+</head>
+<body>
+
+  <h1>Media Story About Me</h1>
+
+  <h2>Responsive Picture of Me</h2>
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://via.placeholder.com/400x300.png?text=Mobile+View">
+    <source media="(max-width: 1024px)" srcset="https://via.placeholder.com/800x600.png?text=Tablet+View">
+    <source media="(min-width: 1025px)" srcset="https://via.placeholder.com/1200x800.png?text=Desktop+View">
+    <img src="https://via.placeholder.com/600x400.png?text=Default+Image" alt="A powerful portrait of me telling my story">
+  </picture>
+
+  <h2>Audio Message</h2>
+  <p>Listen to a short voice message about my passion for technology:</p>
+  <audio controls>
+    <source src="https://file-examples.com/storage/fe7e7705a24356cc1741d44/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Introduction Video</h2>
+  <p>Watch a video clip summarizing my journey into tech:</p>
+  <video width="320" height="240" controls>
+    <source src="https://file-examples.com/storage/fe7e7705a24356cc1741d44/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
